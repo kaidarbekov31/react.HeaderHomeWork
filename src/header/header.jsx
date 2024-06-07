@@ -7,13 +7,22 @@ const Header = () => {
     <header className="header">
       <nav className="nav">
         <NavLink to="/" className="nav-link">
-          Home
+          HOME
         </NavLink>
-        <NavLink to="/page1" className="nav-link">
-          Page 1
+        <NavLink to="/shop" className="nav-link">
+          SHOP
         </NavLink>
-        <NavLink to="/page2" className="nav-link">
-          Page 2
+        <NavLink to="/lookbook" className="nav-link">
+          LOOKBOOK
+        </NavLink>
+        <NavLink to="/features" className="nav-link">
+          FEATURES
+        </NavLink>
+        <NavLink to="/pages" className="nav-link">
+          PAGES
+        </NavLink>
+        <NavLink to="/blog" className="nav-link">
+          BLOG
         </NavLink>
       </nav>
     </header>
